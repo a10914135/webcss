@@ -15,8 +15,8 @@ label{font-weight:400;}
 
 .accordion-header .panel-tool .fa {color:#575765}
 .accordion-header-selected .panel-tool .fa {color:#fff}
- .accordion-header .accordion-collapse {background: url('/content/themes/base/images/accordion_arrows3.png') no-repeat 0 0;}
- .accordion-header .accordion-expand {background: url('/content/themes/base/images/accordion_arrows3.png') no-repeat -16px 0;}
+ .accordion-header .accordion-collapse {background: url('/accordion_arrows3.png') no-repeat 0 0;}
+ .accordion-header .accordion-expand {background: url('/accordion_arrows3.png') no-repeat -16px 0;}
 .user-header {height:150px;}
 
 .tree-folder {background:url('');line-height:20px;margin-top:3px;font:normal normal normal 14px/1 FontAwesome;font-size:small;text-rendering:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
@@ -123,21 +123,21 @@ header,footer,nav,section {display: block;}
 .custom-panel-title {color:#666;margin-left:8px;margin-top:6px; font-size:14px;float:left;}
 
 /*file容器样式*/
-a.files{ margin:0 auto; float:left; margin-left:5px; line-height:26px; text-align:center;color:#444; width:48px; height:26px; overflow:hidden; display:block; border:1px solid #d7d7d7; background:url(Images/upbtn_bg.png) left top no-repeat;text-decoration:none; }
+a.files{ margin:0 auto; float:left; margin-left:5px; line-height:26px; text-align:center;color:#444; width:48px; height:26px; overflow:hidden; display:block; border:1px solid #d7d7d7; background:url(upbtn_bg.png) left top no-repeat;text-decoration:none; }
 /*file设为透明，并覆盖整个触发面*/
 a.files input{ margin-left:-270px; font-size:24px; cursor:pointer; filter:alpha(opacity=0); opacity:0; }
 /*取消点击时的虚线框*/
 a.files, a.files input{ outline:none;/*ff*/hide-focus:expression(this.hideFocus=true);/*ie*/ }
 .uploading{ float:left; background:url(loading2.gif) no-repeat left center; padding-left:18px;display:none; line-height:24px; height:24px; color:#333; }
 .expic{cursor: pointer; width: 140px; height: 140px; border: 1px #ccc solid;}
-.uploading{ float:left; background:url(Images/loading2.gif) no-repeat left center; padding-left:18px;display:none; line-height:24px; height:24px; color:#333; }
+.uploading{ float:left; background:url(loading2.gif) no-repeat left center; padding-left:18px;display:none; line-height:24px; height:24px; color:#333; }
 #FileUpload{ width:140px;}
 
 /*full setting*/
 .fullSet{width:0;height:0;border-width:35px 0 35px 35px;border-style:solid;border-color:rgba(0,0,0,0.6) transparent transparent;background-clip:padding-box;position:fixed;right:0;top:0}
 #fullSetButton{color:#fff;cursor:pointer;position:fixed;right:0;top:0;padding:2px;}
 
-.upload_btn{ *padding:5px 0 0 5px; border:1px solid #d7d7d7; background:url(Images/upbtn_bg.png) repeat-x left 1px; color: #707070; cursor:pointer; overflow:hidden; vertical-align:middle; }
+.upload_btn{ *padding:5px 0 0 5px; border:1px solid #d7d7d7; background:url(upbtn_bg.png) repeat-x left 1px; color: #707070; cursor:pointer; overflow:hidden; vertical-align:middle; }
 /*from*/
 /* Styles for validation helpers
 -----------------------------------------------------------*/
@@ -161,7 +161,7 @@ textarea{border:1px #ccc solid;}
 }
 
 
-.field-validation-error{background:url(Images/icons.png) no-repeat 0px -271px;padding-left:18px; margin-bottom:-3px;color: #ff0000; font-size:13px;display:block  }
+.field-validation-error{background:url(icons.png) no-repeat 0px -271px;padding-left:18px; margin-bottom:-3px;color: #ff0000; font-size:13px;display:block  }
     
 .field-validation-valid{display: none;}
 input.input-validation-error,select.input-validation-error,textarea.input-validation-error{border: 1px solid #ff0000;background-color: #ffeeee;}
